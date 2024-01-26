@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+h1,h2,h2,p,a,ul,li{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    }
+    html, body {
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+    font-size: 0.9em;
+    
+    }
+    body{
+        background-image: url(img/18129294.jpg) ;
+        background-attachment: fixed; 
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0;
+        padding: 0;
+        height: 100%; 
+        width: 100%;  
+
+    }
+    header{
+    
+    padding: 0 0 0.3em 0;
+    margin: 0 0 2em 0;
+    
+    }
+    /* ---- */
+    nav{
+        
+        width: 100%;
+        background-color:rgba(65, 54, 77, 0.5);
+        padding: 12px 0;
+        box-shadow: -3px -3px 7px #c0bfbf, 
+        3px 3px 5px #96969c;
+    }
+    nav .menu{
+        max-width:1270px ;
+        
+        margin: auto;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .menu ul li{
+     
+        list-style: none;
+        display: inline;
+    }
+    .menu ul a{
+        margin: 0 20px;
+        text-decoration: none;
+        font-size: 18px;
+        color: #31344b;
+        background-color:rgb(148, 166, 177) ;
+        font-weight: 400;
+        display: inline-block;
+        padding: 10px 12px;
+        box-shadow: -3px -3px 7px #c0bfbf,
+        3px 3px 5px #96969c;
+        position: relative;
+        transition: all 0.3 ease;
+        border-radius: 8px;
+    
+    }
+    .menu ul a:hover::before{
+         content: '';
+         position: absolute;
+         top: 0;
+         left: 0;
+         right: 0;
+         bottom: 0;
+         box-shadow:inset -3px -3px 7px #ffffff, inset 3px 3px 5px #ceced1 ;
+         border-radius: 8px;
+        }
+    .menu ul a:hover{
+      color: rgb(143, 182, 240);
+    }
+
+    
+    
+    
+    /*------  */
+    /* ---- */
+    .wrapper{
+        display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 10px 0;
+          flex-wrap: wrap;
+          position: relative;
+      
+       }
+      .wrapper .button{
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        margin: 0 5px;
+        overflow: hidden;
+        background: #fff;
+        border-radius: 50px;
+        cursor: pointer;
+        box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+        transition: all 0.3s ease-out;
+      }
+      .wrapper .button:hover{
+        width: 200px;
+      }
+      .wrapper .button .icon{
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        text-align: center;
+        border-radius: 50px;
+        box-sizing: border-box;
+        line-height: 60px;
+        transition: all 0.3s ease-out;
+      }
+      .wrapper .button:nth-child(1):hover .icon{
+        background: #4267B2;
+      }
+      .wrapper .button:nth-child(2):hover .icon{
+        background: #1DA1F2;
+      }
+      .wrapper .button:nth-child(3):hover .icon{
+        background: #E1306C;
+      }
+      .wrapper .button:nth-child(4):hover .icon{
+        background: #333;
+      }
+      .wrapper .button:nth-child(5):hover .icon{
+        background: #314dee;
+      }
+      .wrapper .button .icon i{
+        font-size: 25px;
+        line-height: 60px;
+        transition: all 0.3s ease-out;
+      }
+      .wrapper .button:hover .icon i{
+        color: #fff;
+      }
+      .wrapper .button span{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 60px;
+        margin-left: 10px;
+        transition: all 0.3s ease-out;
+      }
+      .wrapper .button:nth-child(1) span{
+        color: #4267B2;
+      }
+      .wrapper .button:nth-child(2) span{
+        color: #1DA1F2;
+      }
+      .wrapper .button:nth-child(3) span{
+        color: #E1306C;
+      }
+      .wrapper .button:nth-child(4) span{
+        color: #333;
+      }
+      .wrapper .button:nth-child(5) span{
+        color: #314dee;
+      }
+      /*------  */
+    section{ min-height: 700px; }
+    footer{ 
+    background:rgba(65, 54, 77, 0.8);
+    margin: 2em 0 0 0; 
+    text-align: center; 
+    padding: 20px 0; 
+    
+    }
+
+    .footernav ul{
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+    
+    }
+    .footernav ul li a{
+        color: #c0bfbf;
+        margin: 0 10px;
+        text-decoration: none;
+        font-size: 1.3em;
+        opacity: 0.5;
+        transition: 0.5s;
+        display: inline-block;
+        
+        
+        
+    }
+    .footernav ul li a:hover{
+        opacity: 1;
+    }
+    .conteneur{
+    max-width: 1170px;
+    margin: 0 auto;
+    }
+    /*****/
+    .clear{
+    clear: both;
+    }
+    .haut-gauche{
+    float: left;
+    width: 70%;
+    
+    }
+    .haut-droite{
+    float: right;
+    width: 25%;
+    height: 75px;
+   
+    }
+    nav{
+    margin: 0;
+    text-align: center;
+    min-height: 30px;
+    }
+    .milieu-haut-gauche{
+    float: left;
+    width: 30%;
+    }
+    .milieu-haut-droite{
+    float: left;
+    width: 70%;
+    font-size: 1.2em;
+    display: table; 
+    line-height: 1.3em;
+    text-align: center;
+    height: 40vh; 
+    backdrop-filter: blur(8px);
+    border: 8px;
+    }
+    .milieu-gauche{
+    float: left;
+    width: 60%;
+    margin: 1.5em 0 1.5em 0;
+    backdrop-filter: blur(10px);
+    }
+    .milieu-droite{
+    float: right;
+    width: 30%;
+    margin: 1.5em 0 1.5em 0;
+     
+    }   
+    /*****/
+    .haut-gauche   h1{
+    color: #3a2642;
+    font-size: 1.5em;
+    margin: 10px 0 0 55px;
+    text-shadow: 1px 1px 1px;
+    letter-spacing: 3px;
+    }
+    
+    .haut-gauche   h1   span{
+    color: #8daab7;
+    }
+    .haut-droite    a{
+    color: #748f9c;
+    display: block;
+    text-align: right;
+    
+    }
+    .haut-droite    a:first-child{
+    margin: 10px 0 0 0;
+    }
+    .haut-droite   a:hover{
+    text-decoration: underline;
+    }
+    
+    /***/
+    .bleu{ color: #8daab7; }
+    .gras{ font-weight: bold; }
+    .italic{ font-style: italic; }
+    .milieu-haut-gauche{
+    float: left;
+    width: 30%;
+    
+    }
+    .milieu-haut-droite{
+    float: left;
+    width: 70%;
+    font-size: 1.2em;
+    display: table; 
+    line-height: 1.3em;
+    text-align: center;
+    height: 27vh; 
+    
+    }
+    .milieu-haut-droite  h4{
+      color: #910303;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 18px;
+      font-weight: bolder;
+        display: table-caption; 
+        vertical-align: middle;
+        }
+    .milieu-haut-droite  p{
+    display: table-cell; 
+    vertical-align: middle;
+    }
+    .milieu-gauche{
+    float: left;
+    width: 60%;
+    margin: 1.5em 0 1.5em 0;
+   
+    }
+    .milieu-gauche  h2, .milieu-bas  h2 {
+    color: #3a2642;
+    padding: 0.5em;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    }
+    .milieu-gauche-profil{ float: left; width: 15%; }
+    .milieu-droite-profil{ float: left; margin-left: 5%; width: 80%; padding: 1em 0 0 0; }
+    .milieu-bas-competences{  margin: 3em 0 0 0; }
+    .milieu-bas-competences-design{ width: 21%; float: left; margin-right: 5%; text-align: center; min-height: 300px; }
+    .milieu-bas-competences-integration{ width: 21%; float: left; margin-right: 5%;  text-align: center; min-height: 300px;  }
+    .milieu-bas-competences-developpement{ width: 21%; float: left; margin-right: 5%;  text-align: center; min-height: 300px;  }
+    .milieu-bas-competences-referencement{ width: 21%; float: left;  text-align: center; min-height: 300px;  }
+    .milieu-bas-competences  img{transition: 0.5s; }
+    .milieu-bas-competences  img:hover{ transform: rotate(20deg); }
+    .img-responsive{ width: 100%;
+    border-radius: 10px; }
+    .img-responsive50{ width: 80%; }
+    .img-responsive70{ width: 70%; }
+   
+    .milieu-droite{
+    float: right;
+    width: 30%;
+    margin: 1.5em 0 1.5em 0;
+    
+    }
+    
+
+    .cadre {
+      border: 1px solid #c0c0c0;
+      border-radius: 10px;
+      margin: 15px 0;
+      overflow: hidden; 
+      transition: height 0.3s ease; 
+  }
+  
+  .cadre:hover {
+      height: auto; 
+  }
+  
+  .cadre h2 {
+      color: #333333;
+      font-size: 14px;
+      text-align: center;
+      padding: 5px 10px;
+      background: #f2f3f3;
+      border-bottom: 1px solid #c0c0c0;
+      border-radius: 10px 10px 0 0;
+      cursor: pointer; 
+  }
+  
+  
+  .cadre p {
+    padding: 10px;
+    display: none;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+    text-align: justify;
+}
+
+.cadre:hover p {
+    display: block; 
+}
+  
+    .milieu-droite   .cadre:first-child{ margin: 0; }
+    
+   
+    .cadre li{
+      margin: 20px 0;
+      padding: 10px;
+      display: none;
+
+    }
+    .cadre:hover li {
+      display: block; 
+  }
+    .bar{
+      background: #353b48;
+      display: block;
+      height: 20px;
+      border: 1px solid rgba(0,0,0,0.3);
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.25), 0 1px 2px rgba(0,0,0,0.24);
+      transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+    }
+    .bar:hover{
+      box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+    .bar span{
+      height: 20px;
+      float: left;
+      background: linear-gradient(135deg,rgb(42, 25, 75)0%,rgb(205, 103, 252))100%;
+    }
+    .html{
+      width: 90%;
+      animation: html 3s;
+    }
+    .css{
+      width: 70%;
+      animation: css 3s;
+    }
+    .bootstrap{
+      width: 50%;
+      animation: bootstrap 3s;
+    }
+    .python{
+      width: 80%;
+      animation: python 3s;
+    }
+    .c{
+      width: 55%;
+      animation: c 3s;
+    }
+    @keyframes html{
+      0%{
+        width: 0%;
+      }
+      100%{
+        width: 90%;
+      }
+    }
+    @keyframes css{
+      0%{
+        width: 0%;
+      }
+      100%{
+        width: 70%;
+      }
+    }
+    @keyframes bootstrap{
+      0%{
+        width: 0%;
+      }
+      100%{
+        width: 50%;
+      }
+    }
+    @keyframes python{
+      0%{
+        width: 0%;
+      }
+      100%{
+        width: 80%;
+      }
+    }
+    @keyframes c{
+      0%{
+        width: 0%;
+      }
+      100%{
+        width: 55%;
+      }
+    }
+
+    .contact-container{
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    .contact-left{
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      gap: 20px;
+    }
+    .contact-left-title{
+      border: none;
+      width: 120px;
+      height: 5px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    .contact-inputs{
+      width: 300px;
+      height: 50px;
+      border: none;
+      outline: none;
+      padding-left: 25px;
+      font-weight: 500;
+      color: #666;
+      border-radius: 50px;
+    }
+    textarea{
+      height: 140px;
+      padding-top: 15px;
+      border-radius: 20px;
+    }
+    .contact-inputs:focus{
+      border: 2px solid rgb(253, 153, 253);
+    }
+    .contact-input::placeholder{
+      color: #a9a9a9;
+    }
+    button{
+      display: flex;
+      align-items: center;
+      padding: 15px 30px;
+      font-size: 16px;
+      color: #fff;
+      gap: 10px;
+      border: none;
+      border-radius: 50px;
+      background: linear-gradient(270deg,#3a2642,#54597e);
+      cursor: pointer;
+    }
+ button:hover{
+  background: linear-gradient(270deg,#8b5b9e,#8a92cf);
+ }
+ form h2{
+  color: #3a2642;
+ }
+  
+    footer  p{
+    margin: 7px 0 0 0;
+    }
+    /***/
+    @media (max-width: 768px) {  
+      .contact-inputs{
+        width: 80vw;
+      }
+    .haut-gauche{ width: 100%; margin-bottom: 1em;} 
+    
+    nav   a { display: block; }
+    .milieu-gauche{ width: 100%; }
+    .milieu-droite{ width: 100%; }
+    .milieu-droite   .cadre{ width: 100%; }
+    .milieu-haut-gauche, .milieu-haut-droite{ width: 100%; }
+    .milieu-bas-competences-design{ width: 40%; }
+    .milieu-bas-competences-integration{ width: 40%;  }
+    .milieu-bas-competences-developpement{ width: 40%; }
+    .milieu-bas-competences-referencement{ width: 40%;  }
+    }
+    @media (max-width: 992px) {     } 
+    @media (max-width: 1200px) {    }
+    
